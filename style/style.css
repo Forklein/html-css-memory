@@ -19,8 +19,7 @@ body{
 /* Container and main */
 .container{
     max-width: 1000px;
-    height: 900px;
-    margin: 50px auto;
+    margin: 0 auto;
     background-color: #add8e6;
 }
 
@@ -34,23 +33,75 @@ header > h1{
 .row{
     width: 80%;
     height: 250px;
-    margin: 0 auto;
-    border: 1px solid black;
+    margin: 15px auto;
 }
 
 .col{
     width: calc(25% - 10px);
-    height: 75%;
-    border: 1px solid black;
+    height: 100%;
     float: left;
     background-image: url('../img/pattern.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 5px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 footer{
     text-align: center;
     font-size: 25px;
+    padding: 10px 0;
+}
+
+/* Card visible + same card hover */
+#visible-card{
+    background-color: #fff;
+    background-image: url('../img/mongolfiera.png');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#visible-card-2:hover{
+    background-color: #fff;
+    background-image: url('../img/mongolfiera.png');
+    background-size: 100% 100%;
+    background-position: center;
+}
+/* Card hover */
+
+.sottomarino:hover{
+    background-color: #fff;
+    background-image: url('../img/sottomarino.png');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.nave:hover{
+    background-color: #fff;
+    background-image: url('../img/nave.png');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.trattore:hover{
+    background-color: #fff;
+    background-image: url('../img/trattore.png');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.camper:hover{
+    background-color: #fff;
+    background-image: url('../img/camper.png');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.bicicletta:hover{
+    background-color: #fff;
+    background-image: url('../img/bicicletta.png');
+    background-size: 100% 100%;
+    background-position: center;
 }
